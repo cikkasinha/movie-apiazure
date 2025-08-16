@@ -1,0 +1,12 @@
+# Virtual environment
+movie_api_env/
+
+# Python cache
+__pycache__/
+
+# Optional: static files
+Static/
+
+# OS junk
+*.DS_Store
+Thumbs.db
