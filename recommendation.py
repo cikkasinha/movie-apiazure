@@ -1,7 +1,7 @@
 import requests
 from cache_config import cache
 
-TMDB_API_KEY = "e4b6991b8c2421b74595cb1d30f34061"  # Replace with your actual TMDb API key
+TMDB_API_KEY = "API"  # Replace with your actual TMDb API key
 
 @cache.memoize(timeout=600)
 def get_genres():
@@ -108,3 +108,4 @@ def get_movie_recommendations(movie_title):
             })
         return recommendations if recommendations else ["No recommendations found."]
     return ["Movie not found."]
+
